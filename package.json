@@ -1,0 +1,13 @@
+{
+  "name": "austrians-against-humanity",
+  "version": "1.0.0",
+  "description": "Austrian questions and answers for Cards Against Humanity",
+  "scripts": {
+    "start": "build",
+    "build": "index.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "handlebars": "^4.0.8"
+  }
+}
