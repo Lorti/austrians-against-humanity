@@ -1,14 +1,26 @@
 html {
-    font-family: sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
-.answer,
-.question {
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+.card {
+    position: relative;
     float: left;
-    margin: 0.25cm;
-    padding: 0.25cm;
-    width: 5cm;
-    height: 3cm;
+    padding: 0.5cm;
+    width: 4.75cm;
+    height: 4.75cm;
     border: 1px solid black;
+    font-size: 12pt;
+    font-weight: bold;
+    page-break-inside: avoid !important; /* That really is important. */
+}
+.card::after {
+    position: absolute;
+    content: 'Austrians Against Humanity';
+    font-size: 6pt;
+    bottom: 0.5cm;
+    left: 0.5cm;
 }
 .question {
     color: white;

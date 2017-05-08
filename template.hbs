@@ -6,11 +6,13 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Austrians Against Humanity</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     {{#each cards}}
-        <div class="{{ ../class }}">{{ this }}</div>
+        <div class="card {{ ../class }}">{{ this }}</div>
     {{/each}}
 </body>
 </html>

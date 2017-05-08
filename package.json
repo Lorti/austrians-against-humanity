@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Austrian questions and answers for Cards Against Humanity",
   "scripts": {
-    "start": "build",
-    "build": "index.js"
+    "start": "npm run build",
+    "prepublish": "npm run build",
+    "build": "node index.js"
   },
   "license": "MIT",
   "devDependencies": {
