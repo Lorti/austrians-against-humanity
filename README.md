@@ -15,3 +15,6 @@ Austrian questions and answers for Cards Against Humanity
 * Deciding on a final card size in cm, because Austrians don't use weird imperial units!
 * Lots of questions and answers! We are open for pull requests, hit us!
 * Implement a review process to find the best questions and answers.
+
+## Disclaimer
+This is a work of satire. Please don't feel offended.
